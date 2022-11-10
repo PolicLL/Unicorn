@@ -1,0 +1,8 @@
+INSERT INTO unicorn.car_and_car_parts VALUES(1 , 3);
+INSERT INTO unicorn.car_and_car_parts VALUES(6 , 1);
+INSERT INTO unicorn.car_and_car_parts VALUES(7 , 2);
+INSERT INTO unicorn.car_and_car_parts VALUES(16 , 3);
+INSERT INTO unicorn.car_and_car_parts VALUES(17 , 10);
+INSERT INTO unicorn.car_and_car_parts VALUES(1 , 3);
+INSERT INTO unicorn.car_and_car_parts VALUES(6 , 1);
+INSERT INTO unicorn.car_and_car_parts VALUES(19 , 2);

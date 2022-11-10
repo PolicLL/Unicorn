@@ -1,0 +1,1 @@
+INSERT INTO unicorn.`carPart` (name , date_created) VALUES ("Name 1" , "2018-11-23");

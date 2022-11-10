@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `unicorn`.`car_and_car_parts` (
+  `car_id` BIGINT(20) NOT NULL,
+  `car_part_id` BIGINT(20) NOT NULL,
+  FOREIGN KEY (`car_id`) REFERENCES `car` (`car_id`),
+  FOREIGN KEY (`car_part_id`) REFERENCES `car-part` (`serial_number`)
+) 
+ENGINE=InnoDB
+AUTO_INCREMENT = 1;

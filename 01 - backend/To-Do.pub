@@ -1,0 +1,13 @@
+Unicorn
+
+Functions
+
+- see which car parts are in warehouse
+- add parts car part to warehouse
+- search car parts by (serialNumber , dateCreation , brand and car name)
+- get number of parts in warehouse grouped by brand and car name
+
+Relations
+
+- car and carPart -> ManyToMany
+- car and brand -> OneToMany

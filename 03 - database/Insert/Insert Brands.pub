@@ -1,0 +1,15 @@
+INSERT INTO unicorn.brand (name) VALUES ("BMW");
+INSERT INTO unicorn.brand (name) VALUES ("Toyota");
+INSERT INTO unicorn.brand (name) VALUES ("Mercedes");
+INSERT INTO unicorn.brand (name) VALUES ("Seat");
+INSERT INTO unicorn.brand (name) VALUES ("Hyundai");
+INSERT INTO unicorn.brand (name) VALUES ("Peugeot");
+INSERT INTO unicorn.brand (name) VALUES ("Citroen");
+INSERT INTO unicorn.brand (name) VALUES ("Dacia");
+INSERT INTO unicorn.brand (name) VALUES ("Skoda");
+INSERT INTO unicorn.brand (name) VALUES ("VW");
+INSERT INTO unicorn.brand (name) VALUES ("Opel");
+INSERT INTO unicorn.brand (name) VALUES ("Mazda");
+INSERT INTO unicorn.brand (name) VALUES ("Kia");
+INSERT INTO unicorn.brand (name) VALUES ("Honda");
+INSERT INTO unicorn.brand (name) VALUES ("Audi");

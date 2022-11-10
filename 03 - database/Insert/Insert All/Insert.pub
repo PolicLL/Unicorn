@@ -1,0 +1,109 @@
+SELECT * FROM unicorn.car;
+
+INSERT INTO unicorn.car (name , brand_id) VALUES ("A4 B7" , 6);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("RS3" , 6);
+
+INSERT INTO unicorn.car (name , brand_id) VALUES ("Duster" , 9);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("Sandero" , 9);
+
+INSERT INTO unicorn.car (name , brand_id) VALUES ("106" , 4);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("206" , 4);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("207" , 4);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("308" , 4);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("108" , 4);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("208" , 4);
+
+INSERT INTO unicorn.car (name , brand_id) VALUES ("E90" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("E60" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("F10" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("F30" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("E39" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("E46" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("E92" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("E65" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("F11" , 1);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("E36" , 1);
+
+
+INSERT INTO unicorn.car (name , brand_id) VALUES ("Octavia" , 10);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("Rapid" , 10);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("Superb" , 10);
+INSERT INTO unicorn.car (name , brand_id) VALUES ("Fabia" , 10);
+
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Motor 1" , "2018-11-23" , 1);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Motor 2" , "2018-11-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Motor 3" , "2017-05-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Motor 4" , "2002-11-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Motor 5" , "2001-11-23" , 3);
+
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Set guma 1" , "2020-11-23" , 1);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Set guma 2" , "2009-01-23" , 1);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Set guma 3" , "2008-11-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Set guma 4" , "2018-01-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Set guma 5" , "2018-11-23" , 3);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Set guma 6" , "2018-06-23" , 3);
+
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Katalizator 1" , "2018-08-23" , 1);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Katalizator 2" , "2022-11-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Katalizator 3" , "2018-11-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Katalizator 4" , "2004-11-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Katalizator 5" , "2011-11-23" , 2);
+INSERT INTO unicorn.`car_part` (name , date_created , warehouse_id) VALUES ("Katalizator 6" , "2018-11-23" , 1);
+
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (23 , 15);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (23 , 16);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (24 , 16);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (24 , 16);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (25 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (25 , 18);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (26 , 19);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (26 , 20);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (26 , 21);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (27 , 21);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (27 , 21);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (28 , 22);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (29 , 23);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (29 , 24);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (29 , 25);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (29 , 26);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (30 , 27);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (31 , 28);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (31 , 28);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (31 , 16);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (31 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (31 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (32 , 18);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (33 , 17);
+
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (36 , 27);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (36 , 28);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (36 , 28);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (36 , 11);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (34 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (34 , 11);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (34 , 18);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (35 , 12);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (35 , 23);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (36 , 24);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (37 , 25);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (37 , 16);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (38 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (39 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (39 , 18);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (39 , 17);
+
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (40 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (41 , 21);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (41 , 21);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (41 , 20);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (42 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (42 , 18);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (43 , 19);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (43 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (44 , 17);
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (46 , 22);
+
+INSERT INTO unicorn.car_and_car_parts (car_id , car_part_id) VALUES (46 , 33);
+
+
+
